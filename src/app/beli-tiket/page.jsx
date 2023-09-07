@@ -98,12 +98,14 @@ const beliTiket = () => {
                                     <div>E</div>
                                 </td>
                                 <td className='text-center p-10 bg-[silver] h-12' rowSpan={3}>
-                                    <div>S</div>
-                                    <div>I</div>
-                                    <div>L</div>
-                                    <div>V</div>
-                                    <div>E</div>
-                                    <div>R</div>
+                                    <Link href='/beli-tiket/silver'>
+                                        <div>S</div>
+                                        <div>I</div>
+                                        <div>L</div>
+                                        <div>V</div>
+                                        <div>E</div>
+                                        <div>R</div>
+                                    </Link>
                                 </td>
                             </tr>
                             <tr>
@@ -114,7 +116,7 @@ const beliTiket = () => {
                                 </Link>
                             </tr>
                             <tr>
-                            <Link href='/beli-tiket/festival'>
+                                <Link href='/beli-tiket/festival'>
                                     <td className={`flex p-10 text-center bg-[yellow]`}>
                                         Festival B
                                     </td>
@@ -133,7 +135,7 @@ const beliTiket = () => {
                     </table>
                 </div>
                 <div className="w-full md:w-1/2 p-5">
-                    <Total/>
+                    <Total />
                 </div>
             </div>
 
